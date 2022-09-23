@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(181, 168, 193);
+    color: rgb(115, 61, 166);
+}
+
+.topbar {
+    width:100%;
+    background: rgb(168, 139, 195);
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newspaper {
+    column-count: 3;
+    column-gap: 10px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: blueviolet;
+    column-width: 400px;
+}
+
+h1 {
+    column-span: all;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-snapchat-ghost {
+    background: blueviolet;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+    background: blueviolet;
+    color: white;
+}
+
+.fa-youtube {
+    background: blueviolet;
+    color: white;
+}
+  
